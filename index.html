@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>My portfolio</title>
+ <link rel="stylesheet" href="style.css">
+ <script src="https://kit.fontawesome.com/a076d05399.js" ></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+ <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+<!-- scroll-up btn-->
+<div class="scroll-up-btn">
+  <i class="fa-solid fa-angle-up fa-beat fa-2xl"></i>
+</div>
+ <!--navigtaion bar-->
+   <nav class="navbar">
+    <div class="max-width">
+     <div class="logo"><a href="#">Port<span>folio</span></a></div>
+   <ul class="menu">
+    <li><a href="#home" class="list">Home</a></li>
+    <li><a href="#about" class="list">About</a></li> 
+    <li><a href="#education" class="list">Education</a></li>
+    <li><a href="#skills" class="list">Skills</a> </li>
+    <li><a href="#contact" class="list" style="padding:0px 20px 0px 0px;">Contact</a></li>
+   </ul>
+   <div class="menu-btn"><i class="fas fa-bars"></i>
+  </div>
+  </div>
+  </nav>
+ 
+ <!--Home section-->
+ <section class="home" id="home" >
+  <div class="max-width">
+   <div class="home-content">
+    <div class="text1">Hello,my name is </div>
+    <div class="text2">Yogitha</div>
+  <div class="text3">I'm a <span>Frontend Developer</span> </div>
+   </div>
+  </div>
+ </section>
+
+ <!--about section-->
+
+ <section class="about" id="about">
+  <div class="max-width">
+    <h2 class="title"><u>About</u></h2>
+   <div class="about-content">
+    <div class="column-left">
+      <img src="about.jpg" id="image" alt="image">
+    </div>
+    <div class="column-right">
+      <div class="text">I'm <span><i>Yogitha G S</i></span>
+        Pursuing B.E in Dayananda Sagar college of Engineering.
+        <p>I'm looking for a position in a success oriented organization that seeks an ambitious and career
+          conscious person, where acquired skills will be utilized towards continued growth and
+          advancement both professionally and personally</p>
+          <a href="yogithags_Resume.pdf" download="Yogitha's resume">Download CV</a>
+    </div>
+    </div>
+   </div>
+  </div>
+ </section>
+
+ <!-------Education-------->
+
+ <section class="education" id="education">
+  <div class="max-width">
+    <h2 class="title">Education</h2>
+   <div class="education-content">
+
+    <div class="card">
+      <div class="box">
+        <div class="text active-link" style="align-self: flex-start;"><i class="fa-sharp fa-solid fa-user-graduate" onclick="opentab('grad')"></i> Graduation</div>
+        <div class="grad-contents active-tab" id="grad">
+          <ul>
+            <li>B.E</li>
+            <li>EEE<span>(2019-2023)</span></li>
+            <li>CGPA : 8.75</li>
+            <li>Dayananda Sagar college of engineering</li>
+          </ul>
+      </div>
+    </div>
+    </div>
+
+    <div class="card">
+      <div class="box">
+        <div class="text " style="align-self:center;"> <i class="fa-sharp fa-solid fa-book-open-reader" onclick="opentab('puc')"></i> PUC</div>
+        <div class="grad-contents" id="puc">
+          <ul>
+            <li>PUC</li>
+            <li>PCMB<span>(2018-2019)</span></li>
+            <li>Score: 90.16%</li>
+            <li>ABC PU</li>
+          </ul>
+      </div>
+    </div>
+      </div>
+    
+
+    <div class="card"> 
+      <div class="box">
+        <div class="text" style="align-self: flex-end;"> <i class="fa-solid fa-school" onclick="opentab('sslc')"></i> Matriculation</div>
+        <div class="grad-contents " id="sslc">
+          <ul>
+            <li>SSLC<span>(2016-2017)</span></li>
+            <li>Score: 94.56%</li>
+            <li>S V V N</li>
+          </ul>
+      </div>
+    </div>
+    </div>
+   </div>
+  </div>
+ </section> 
+ 
+ <!-- skills scetion -->
+
+ <section class="skills" id="skills">
+  <div class="max-width">
+    <h2 class="title"><u>Skills</u></h2>
+   <div class="skills-content">
+   <div class="container-element" style="align-self: flex-start;"><i class="fa-solid fa-code"></i> C programming</div>
+   <div class="container-element" style="align-self:flex-start;"><i class="fa-brands fa-java"></i> OOPS concept of java</div>
+   <div class="container-element" style="align-self:center;"><i class="fa-brands fa-html5"></i> HTML 5</div>
+   <div class="container-element" style="align-self:center;"><i class="fa-brands fa-css3"></i> CSS</div>
+   <div class="container-element" style="align-self: center;"><i class="fa-brands fa-js"></i> Java script</div>
+   <div class="container-element" style="align-self:flex-end"><i class="fa-solid fa-database"></i> My-sql</div>
+   </div>
+  </div>
+ </section>
+
+ <!-- contact section -->
+
+ <section class="contact" id="contact">
+  <div class="max-width">
+    
+    <div class="contact-content">
+          <div class="column-left">
+            <h1 class="sub-title">Get in touch</h1><br>
+            <p class="information"><i class="fa-solid fa-envelope"> </i> yogithagsyogi@gmail.com</p><br>
+            <p class="information"><i class="fa-solid fa-square-phone"> </i> +91 7349094013</p><br>
+            <div class="social-icons">
+              <a href="https://instagram.com/yogitha_gs_?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-instagram"></i></a>&nbsp;&nbsp;
+              <a href=https://www.linkedin.com/in/yogitha-gs><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="column-right">
+            <form name="submit-to-google-sheet">
+              <div class="fields">
+              <input type="text" name="Name" id="Name" placeholder=" Enter Name" required>
+              <br>
+              <input type="Email" name="Email" placeholder="Enter Email" id="Email" required>
+              <br>
+              <textarea name="Message" id="Message" rows="10" cols="50" placeholder="Message" ></textarea><br>
+              <button type="submit">Submit</button>
+            </div>
+            </form>
+    <span id="msg"></span>
+          </div>
+        
+      
+    </div>
+   
+  </div>
+ </section>
+
+ <script src="main.js"></script>
+
+ </script>
+</body>
+</html>
